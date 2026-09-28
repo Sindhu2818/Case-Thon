@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.log
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+
+# Provided data pack is NOT committed (organizers supply it).
+# If your hackathon wants the pack included, remove the lines below:
+hackathon/
+6ab1786473122_case-a-thon.zip
+
+# Packaging artifact (used for upload, not for the repo)
+care_journey_assurance_submission.zip
+
+# Freebuff workspace metadata
+.freebuff/

@@ -1,0 +1,9 @@
+medicine_advised,test_advised,review_advised,Completed care journey,Medicine not collected,Review not attended,Test not completed
+0,0,0,103,0,0,0
+0,0,1,192,0,80,0
+0,1,0,55,0,0,12
+0,1,1,73,0,30,45
+1,0,0,262,150,0,0
+1,0,1,366,301,151,0
+1,1,0,86,85,0,41
+1,1,1,155,185,63,80

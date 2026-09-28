@@ -1,0 +1,4 @@
+approach,macro_f1_all_episodes,macro_f1_dropout_only
+A_direct_multiclass,0.3518,0.2468
+B_hierarchical,,0.5596
+B_hierarchical_no_mask,,0.5596

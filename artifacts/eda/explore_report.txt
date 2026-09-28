@@ -1,0 +1,139 @@
+====================================================================================================
+TABLE patient_360_reference  shape=(5000, 14)
+====================================================================================================
+  patient_id  canonical_name gender date_of_birth  age_as_of_2026 masked_mobile village_id     village       block      district preferred_language       known_ncd_status vulnerability_group household_id
+0    P000001  Mohan Mallaiah      M    2008-05-18              18    XXXXXX5988    VIL0035   Indresham  Patancheru    Sangareddy             Telugu  Hypertension+Diabetes             General      HH00384
+1    P000002     Shankar Rao      M    1997-07-03              29    XXXXXX5269    VIL0007  Kallepally   Balanagar  Mahabubnagar             Telugu                    NaN             General      HH01266
+2    P000003     Mohan Basha      M    1979-08-22              47    XXXXXX9751    VIL0017     Chandur     Chandur      Nalgonda             Telugu                    NaN  Low digital access      HH00709
+
+====================================================================================================
+TABLE teleconsultations  shape=(5516, 23)
+====================================================================================================
+  teleconsult_id tele_source_patient_id  patient_name gender  age      mobile       village      block      district consult_date facility_id     chief_complaint  diagnosis_group    consult_mode  duration_min medicine_advised test_advised review_advised  review_due_days  distance_to_facility_km preferred_language connectivity_quality consult_status
+0      TC0000001             TEP0000001   Mohan Basha      M   47  9983609751       Chandur    Chandur      Nalgonda   2026-05-19      FAC015  Routine NCD review            Other           Audio            15              Yes          Yes             No              NaN                     29.7             Telugu                 Poor      Completed
+1      TC0000002             TEP0000002  Mohan Laxman      M   44  9136944279  Bodajanampet  Balanagar  Mahabubnagar   2026-07-22      FAC006      Skin complaint            Other  Assisted video            18               No           No            Yes             21.0                     33.3             Telugu                 Fair      Completed
+2      TC0000003             TEP0000002  Mohan Laxman      M   47         NaN  Bodajanampet  Balanagar  Mahabubnagar   2026-08-11      FAC004      Skin complaint  Fever/Infection           Video            20               No           No            Yes              7.0                     27.6             Telugu                 Good      Completed
+
+====================================================================================================
+TABLE ncd_screening  shape=(4748, 18)
+====================================================================================================
+  ncd_record_id ncd_source_patient_id    patient_name gender  age      mobile       village       block      district screening_date       screening_type  systolic_bp  diastolic_bp  random_glucose_mg_dl   bmi             ncd_status control_status next_followup_due
+0   NCDR0000001            NCP0000001  Mohan Mallaiah      M   18  9856495988     Indresham  Patancheru    Sangareddy     2026-01-02        HWC screening          147           106                   290  30.8  Hypertension+Diabetes     Controlled        2026-04-02
+1   NCDR0000002            NCP0000002     Mohan Basha      M   47  9983609751       Chandur     Chandur      Nalgonda     2026-03-14  Community screening          117            93                   153  33.6                    NaN  Not diagnosed               NaN
+2   NCDR0000003            NCP0000003    Mohan Laxman      M   45  9136944279  Bodajanampet   Balanagar  Mahabubnagar     2026-04-08        HWC screening          186            87                   140  18.8           Hypertension     Controlled        2026-05-08
+
+====================================================================================================
+TABLE prescriptions  shape=(5151, 14)
+====================================================================================================
+  prescription_id prescription_line_id rx_source_patient_id    patient_name      mobile          village prescription_date teleconsult_id medicine_name    medicine_class frequency  days_prescribed route facility_id
+0       RX0000001          RX0000001-1           RXP0000001     Mohan Basha  9983609751          Chandur        2026-05-19      TC0000001    Cetirizine     Antihistamine        BD                5  Oral      FAC015
+1       RX0000002          RX0000002-1           RXP0000002  Mohan Narsimha  9484336710  Kondamallepally        2026-06-02      TC0000004    Amlodipine  Antihypertensive       TID               30  Oral      FAC011
+2       RX0000003          RX0000003-1           RXP0000003     Sai Krishna  9445488147         Macharam        2026-04-24      TC0000005    Amlodipine  Antihypertensive        BD               30  Oral      FAC001
+
+====================================================================================================
+TABLE medicine_dispensing  shape=(3756, 14)
+====================================================================================================
+  dispense_id pharm_source_patient_id     patient_name      mobile          village dispense_date prescription_id medicine_name  prescribed_qty_proxy  dispensed_qty  partial_fill  stockout_flag facility_id      dispense_status
+0  DSP0000001              PHP0000001      Mohan Basha  9983609751          Chandur    2026-05-19       RX0000001    Cetirizine                     5             15             0              0      FAC015            Dispensed
+1  DSP0000002              PHP0000002   Mohan Narsimha  9484336710  Kondamallepally    2026-06-04       RX0000002    Amlodipine                    30             30             0              0      FAC011            Dispensed
+2  DSP0000003              PHP0000003  Anitha Narsimha  9474992238      Devarakonda    2026-02-26       RX0000004    Amlodipine                    30             15             1              0      FAC011  Partially dispensed
+
+====================================================================================================
+TABLE medicine_stock_status  shape=(1296, 11)
+====================================================================================================
+  stock_record_id facility_id snapshot_month medicine_name  opening_stock  received_qty  dispensed_qty_month  closing_stock  stockout_flag_month  stockout_days stock_status
+0      STK0000001      FAC001     2026-01-01    Amlodipine            239           196                  294            141                    0              0     Adequate
+1      STK0000002      FAC001     2026-01-01     Metformin            263           211                  435             39                    0              0     Adequate
+2      STK0000003      FAC001     2026-01-01   Paracetamol            248            58                  130            176                    0              0     Adequate
+
+====================================================================================================
+TABLE lab_tests  shape=(2005, 13)
+====================================================================================================
+  lab_record_id lab_source_patient_id    patient_name      mobile          village  order_date      test_name sample_date result_date result_flag            test_status facility_id      lab_type
+0    LAB0000001            LAP0000001     Mohan Basha  9983609751          Chandur  2026-05-19  Lipid Profile  2026-05-22  2026-05-23      Normal              Available      FAC015  Facility lab
+1    LAB0000002            LAP0000002  Mohan Narsimha  9484336710  Kondamallepally  2026-06-02  Blood Glucose  2026-06-04  2026-06-05      Normal              Available      FAC011       Hub lab
+2    LAB0000003            LAP0000003     Sai Krishna  9445488947         Macharam  2026-04-24            ECG         NaN         NaN         NaN  Ordered-not-completed      FAC001  Facility lab
+
+====================================================================================================
+TABLE followup_visits  shape=(2575, 11)
+====================================================================================================
+     visit_id visit_source_patient_id     patient_name      mobile          village  visit_date        visit_type facility_id episode_id   clinical_status referral_flag
+0  VIS0000003              VIP0000002     Mohan Laxman  9136944279     Bodajanampet  2026-08-20  Follow-up review      FAC004   E0000003  Needs escalation            No
+1  VIS0000005              VIP0000003   Mohan Narsimha  9484336710  Kondamallepally  2026-07-06  Follow-up review      FAC011   E0000004  Needs escalation            No
+2  VIS0000009              VIP0000005  Anitha Narsimha  9474992238      Devarakonda  2026-04-15  Follow-up review      FAC011   E0000007            Stable           Yes
+
+====================================================================================================
+TABLE visit_history  shape=(13061, 11)
+====================================================================================================
+     visit_id visit_source_patient_id  patient_name      mobile       village  visit_date        visit_type facility_id episode_id    clinical_status referral_flag
+0  VIS0000001              VIP0000001   Mohan Basha  9983609751       Chandur  2026-05-19  Teleconsultation      FAC015   E0000001  Consult completed            No
+1  VIS0000002              VIP0000002   Mohn Laxman  9136944279  Bodajanampet  2026-07-22  Teleconsultation      FAC006   E0000002  Consult completed            No
+2  VIS0000003              VIP0000002  Mohan Laxman  9136944279  Bodajanampet  2026-08-20  Follow-up review      FAC004   E0000003   Needs escalation            No
+
+====================================================================================================
+TABLE outreach_actions  shape=(6088, 12)
+====================================================================================================
+  outreach_id outreach_source_patient_id   patient_name      mobile          village action_date                action_method      contact_outcome cadre facility_id episode_id  followup_reason
+0  OUT0000001                 OUP0000001    Mohan Basha  9983609751          Chandur  2026-05-29  Village health day reminder  Patient unavailable  ASHA      FAC015   E0000001  Medicine pickup
+1  OUT0000002                 OUP0000002   Mohan Laxman  9136944879     Bodajanampet  2026-08-12                   Phone call  Reached; counselled  ASHA      FAC006   E0000002     Review visit
+2  OUT0000003                 OUP0000003  Mohn Narsimha  9484336710  Kondamallepalli  2026-06-09                 WhatsApp/SMS         Wrong number  ASHA      FAC011   E0000004     Review visit
+
+====================================================================================================
+TABLE facility_reference  shape=(27, 10)
+====================================================================================================
+  facility_id    facility_name facility_type      district      block   latitude  longitude  network_context  cho_count  asha_linked_count
+0      FAC001  Jadcherla PHC-1           PHC  Mahabubnagar  Jadcherla  16.777331  78.039561    Offline-prone          2                  4
+1      FAC002  Jadcherla HWC-1           HWC  Mahabubnagar  Jadcherla  16.757882  77.831472            2G/3G          3                  4
+2      FAC003  Jadcherla HWC-2           HWC  Mahabubnagar  Jadcherla  16.822409  78.004110  4G intermittent          3                  3
+
+====================================================================================================
+TABLE geography_reference  shape=(36, 9)
+====================================================================================================
+  village_id    village      district      block   latitude  longitude  population   road_access mobile_connectivity
+0    VIL0001  Badepally  Mahabubnagar  Jadcherla  16.863881  77.982442        3961  Mostly paved            Moderate
+1    VIL0002  Polepally  Mahabubnagar  Jadcherla  16.829280  77.806760        1910         Mixed                Weak
+2    VIL0003   Gangapur  Mahabubnagar  Jadcherla  16.656450  78.181741        4949         Paved            Moderate
+
+====================================================================================================
+TABLE episode_outcomes  shape=(5516, 6)
+====================================================================================================
+  episode_id teleconsult_id consult_date       cohort  lost_to_followup_label     dropout_stage_label
+0   E0000001      TC0000001   2026-05-19  DEVELOPMENT                     0.0  Completed care journey
+1   E0000002      TC0000002   2026-07-22   EVALUATION                     NaN                     NaN
+2   E0000003      TC0000003   2026-08-11   EVALUATION                     NaN                     NaN
+
+====================================================================================================
+TABLE submission_template_linkage  shape=(0, 4)
+====================================================================================================
+Empty DataFrame
+Columns: [source_system, source_patient_id, predicted_patient_id, confidence]
+Index: []
+
+====================================================================================================
+TABLE submission_template_episode_predictions  shape=(0, 5)
+====================================================================================================
+Empty DataFrame
+Columns: [episode_id, risk_probability, predicted_lost_to_followup, predicted_dropout_stage, priority_tier]
+Index: []
+
+====================================================================================================
+TABLE submission_template_action_queue  shape=(0, 6)
+====================================================================================================
+Empty DataFrame
+Columns: [episode_id, predicted_patient_id, priority, reason, recommended_action, assigned_cadre]
+Index: []
+
+
+### STRUCTURAL CHECKS
+teleconsult rows: 5516  episode_outcome rows: 5516
+episode_id unique in outcomes: True
+teleconsult_id unique in outcomes: True
+teleconsult_id unique in teleconsultations: True
+cohort counts: {'DEVELOPMENT': 4132, 'EVALUATION': 1384}
+consult date range: 2026-01-01 00:00:00 -> 2026-08-15 00:00:00
+DEV consult max: 2026-06-30 00:00:00
+EVAL consult min: 2026-07-01 00:00:00
+label dist (dev): {0.0: 2144, 1.0: 1988, nan: 1384}
+stage dist (dev): {'Completed care journey': 2144, nan: 1384, 'Medicine not collected': 1170, 'Review not attended': 543, 'Test not completed': 275}
+outcome rows with teleconsult_id not in teleconsultations: 0
+duplicate teleconsult rows by episode_id: 0

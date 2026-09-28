@@ -1,0 +1,5 @@
+,pred_Medicine not collected,pred_Test not completed,pred_Review not attended,pred_Completed care journey
+true_Medicine not collected,355,37,57,0
+true_Test not completed,39,44,14,0
+true_Review not attended,102,23,94,0
+true_Completed care journey,0,0,0,0

@@ -1,0 +1,21 @@
+{
+ "chosen_model": "random_forest",
+ "chosen_pr_auc": 0.6651477899662339,
+ "chosen_roc_auc": 0.7051428396084569,
+ "stage_approach": "B_hierarchical",
+ "macro_f1_B_masked": 0.5595723433099055,
+ "macro_f1_B_nomask": 0.5595723433099055,
+ "macro_f1_A_dropout": 0.24681980452040847,
+ "hyperparams": {
+  "random_forest": {
+   "min_samples_leaf": 20
+  },
+  "xgboost": {
+   "max_depth": 3
+  },
+  "lightgbm": {
+   "num_leaves": 15,
+   "min_child_samples": 40
+  }
+ }
+}

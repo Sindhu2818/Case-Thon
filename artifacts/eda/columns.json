@@ -1,0 +1,3404 @@
+{
+ "patient_360_reference": {
+  "n_rows": 5000,
+  "n_cols": 14,
+  "columns": {
+   "patient_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 5000,
+    "top_values": {
+     "P000001": 1,
+     "P000002": 1,
+     "P000003": 1,
+     "P000004": 1,
+     "P000005": 1,
+     "P000006": 1,
+     "P000007": 1,
+     "P000008": 1,
+     "P000009": 1,
+     "P000010": 1,
+     "P000011": 1,
+     "P000012": 1
+    },
+    "sample": [
+     "P000001",
+     "P000002",
+     "P000003"
+    ]
+   },
+   "canonical_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 798,
+    "top_values": {
+     "Anitha Mallaiah": 15,
+     "Rajesh Yadav": 15,
+     "Vinod Narsimha": 14,
+     "Raju Shekar": 14,
+     "Kavitha Das": 13,
+     "Jyothi Mallaiah": 13,
+     "Swathi Yadav": 13,
+     "Lalitha Krishna": 13,
+     "Sushma Kumar": 12,
+     "Rajesh Reddy": 12,
+     "Naveen Patel": 12,
+     "Rajesh Mallaiah": 12
+    },
+    "sample": [
+     "Mohan Mallaiah",
+     "Shankar Rao",
+     "Mohan Basha"
+    ]
+   },
+   "gender": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "F": 2597,
+     "M": 2403
+    },
+    "sample": [
+     "M",
+     "M",
+     "M"
+    ]
+   },
+   "date_of_birth": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4373,
+    "top_values": {
+     "1988-09-18": 4,
+     "2008-03-01": 4,
+     "1980-10-21": 4,
+     "1986-01-07": 4,
+     "1979-08-22": 3,
+     "2008-04-07": 3,
+     "1960-01-22": 3,
+     "1964-07-27": 3,
+     "1958-05-07": 3,
+     "1963-03-08": 3,
+     "1977-06-26": 3,
+     "1975-10-21": 3
+    },
+    "sample": [
+     "2008-05-18",
+     "1997-07-03",
+     "1979-08-22"
+    ]
+   },
+   "age_as_of_2026": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 71,
+    "min": 18.0,
+    "max": 88.0,
+    "mean": 48.8608,
+    "sample": [
+     "18",
+     "29",
+     "47"
+    ]
+   },
+   "masked_mobile": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3948,
+    "top_values": {
+     "XXXXXX5139": 5,
+     "XXXXXX2628": 4,
+     "XXXXXX6888": 4,
+     "XXXXXX6054": 4,
+     "XXXXXX8410": 4,
+     "XXXXXX2354": 4,
+     "XXXXXX2383": 4,
+     "XXXXXX0567": 4,
+     "XXXXXX3440": 4,
+     "XXXXXX0389": 4,
+     "XXXXXX4839": 4,
+     "XXXXXX2653": 4
+    },
+    "sample": [
+     "XXXXXX5988",
+     "XXXXXX5269",
+     "XXXXXX9751"
+    ]
+   },
+   "village_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 36,
+    "top_values": {
+     "VIL0031": 164,
+     "VIL0008": 159,
+     "VIL0022": 157,
+     "VIL0021": 156,
+     "VIL0019": 154,
+     "VIL0030": 153,
+     "VIL0013": 152,
+     "VIL0009": 151,
+     "VIL0032": 148,
+     "VIL0014": 147,
+     "VIL0012": 147,
+     "VIL0035": 146
+    },
+    "sample": [
+     "VIL0035",
+     "VIL0007",
+     "VIL0017"
+    ]
+   },
+   "village": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 36,
+    "top_values": {
+     "Jharasangam": 164,
+     "Bodajanampet": 159,
+     "Nomula": 157,
+     "Nakrekal": 156,
+     "Kummarikunta": 154,
+     "Mogudampally": 153,
+     "Devarakonda": 152,
+     "Midjil": 151,
+     "Kohir": 148,
+     "Kondamallepally": 147,
+     "Vemula": 147,
+     "Indresham": 146
+    },
+    "sample": [
+     "Indresham",
+     "Kallepally",
+     "Chandur"
+    ]
+   },
+   "block": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 9,
+    "top_values": {
+     "Zaheerabad": 603,
+     "Nakrekal": 587,
+     "Midjil": 571,
+     "Devarakonda": 566,
+     "Balanagar": 551,
+     "Narayankhed": 541,
+     "Patancheru": 537,
+     "Chandur": 523,
+     "Jadcherla": 521
+    },
+    "sample": [
+     "Patancheru",
+     "Balanagar",
+     "Chandur"
+    ]
+   },
+   "district": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Sangareddy": 1681,
+     "Nalgonda": 1676,
+     "Mahabubnagar": 1643
+    },
+    "sample": [
+     "Sangareddy",
+     "Mahabubnagar",
+     "Nalgonda"
+    ]
+   },
+   "preferred_language": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Telugu": 4329,
+     "Urdu": 454,
+     "English": 217
+    },
+    "sample": [
+     "Telugu",
+     "Telugu",
+     "Telugu"
+    ]
+   },
+   "known_ncd_status": {
+    "dtype": "str",
+    "n_missing": 2134,
+    "n_unique": 3,
+    "top_values": {
+     "Hypertension": 1305,
+     "Diabetes": 879,
+     "Hypertension+Diabetes": 682
+    },
+    "sample": [
+     "Hypertension+Diabetes",
+     "Hypertension",
+     "Hypertension"
+    ]
+   },
+   "vulnerability_group": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 5,
+    "top_values": {
+     "General": 3507,
+     "Low digital access": 614,
+     "Elderly living alone": 350,
+     "Mobility limitation": 273,
+     "Seasonal migrant": 256
+    },
+    "sample": [
+     "General",
+     "General",
+     "Low digital access"
+    ]
+   },
+   "household_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2324,
+    "top_values": {
+     "HH00047": 8,
+     "HH02752": 8,
+     "HH00223": 7,
+     "HH01629": 7,
+     "HH02450": 7,
+     "HH02692": 7,
+     "HH01127": 7,
+     "HH00448": 7,
+     "HH00097": 7,
+     "HH00384": 6,
+     "HH01068": 6,
+     "HH01922": 6
+    },
+    "sample": [
+     "HH00384",
+     "HH01266",
+     "HH00709"
+    ]
+   }
+  }
+ },
+ "teleconsultations": {
+  "n_rows": 5516,
+  "n_cols": 23,
+  "columns": {
+   "teleconsult_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 5516,
+    "top_values": {
+     "TC0000001": 1,
+     "TC0000002": 1,
+     "TC0000003": 1,
+     "TC0000004": 1,
+     "TC0000005": 1,
+     "TC0000006": 1,
+     "TC0000007": 1,
+     "TC0000008": 1,
+     "TC0000009": 1,
+     "TC0000010": 1,
+     "TC0000011": 1,
+     "TC0000012": 1
+    },
+    "sample": [
+     "TC0000001",
+     "TC0000002",
+     "TC0000003"
+    ]
+   },
+   "tele_source_patient_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4231,
+    "top_values": {
+     "TEP0000008": 3,
+     "TEP0000081": 3,
+     "TEP0000093": 3,
+     "TEP0000105": 3,
+     "TEP0000115": 3,
+     "TEP0000126": 3,
+     "TEP0000137": 3,
+     "TEP0000142": 3,
+     "TEP0000168": 3,
+     "TEP0000179": 3,
+     "TEP0000199": 3,
+     "TEP0000231": 3
+    },
+    "sample": [
+     "TEP0000001",
+     "TEP0000002",
+     "TEP0000002"
+    ]
+   },
+   "patient_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 1282,
+    "top_values": {
+     "Anitha Mallaiah": 17,
+     "Praveen Laxman": 16,
+     "Shankar Narsimha": 16,
+     "Jyothi Krishna": 16,
+     "Kiran Rao": 15,
+     "Raju Shekar": 15,
+     "Mounika Yadav": 15,
+     "Bhavani Das": 15,
+     "Vinod Narsimha": 15,
+     "Naveen Patel": 14,
+     "Arun Khan": 14,
+     "Raghav Basha": 14
+    },
+    "sample": [
+     "Mohan Basha",
+     "Mohan Laxman",
+     "Mohan Laxman"
+    ]
+   },
+   "gender": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "F": 2878,
+     "M": 2638
+    },
+    "sample": [
+     "M",
+     "M",
+     "M"
+    ]
+   },
+   "age": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 73,
+    "min": 18.0,
+    "max": 90.0,
+    "mean": 49.03281363306744,
+    "sample": [
+     "47",
+     "44",
+     "47"
+    ]
+   },
+   "mobile": {
+    "dtype": "str",
+    "n_missing": 438,
+    "n_unique": 4287,
+    "top_values": {
+     "9308761512": 3,
+     "9018785075": 3,
+     "9442198767": 3,
+     "9962592192": 3,
+     "9444621490": 3,
+     "9358032354": 3,
+     "9753129253": 3,
+     "9815927753": 3,
+     "9546311625": 3,
+     "9835170211": 3,
+     "9009425619": 3,
+     "9552712047": 3
+    },
+    "sample": [
+     "9983609751",
+     "9136944279",
+     "9484336710"
+    ]
+   },
+   "village": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 113,
+    "top_values": {
+     "Jharasangam": 172,
+     "Kummarikunta": 160,
+     "Midjil": 156,
+     "Bodajanampet": 154,
+     "Zaheerabad": 149,
+     "Velpula": 148,
+     "Kohir": 145,
+     "Devarakonda": 144,
+     "Chandur": 141,
+     "Nomula": 141,
+     "Kondamallepally": 140,
+     "Nakrekal": 139
+    },
+    "sample": [
+     "Chandur",
+     "Bodajanampet",
+     "Bodajanampet"
+    ]
+   },
+   "block": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 9,
+    "top_values": {
+     "Zaheerabad": 680,
+     "Midjil": 649,
+     "Devarakonda": 636,
+     "Nakrekal": 615,
+     "Chandur": 604,
+     "Balanagar": 597,
+     "Narayankhed": 588,
+     "Jadcherla": 576,
+     "Patancheru": 571
+    },
+    "sample": [
+     "Chandur",
+     "Balanagar",
+     "Balanagar"
+    ]
+   },
+   "district": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Nalgonda": 1855,
+     "Sangareddy": 1839,
+     "Mahabubnagar": 1822
+    },
+    "sample": [
+     "Nalgonda",
+     "Mahabubnagar",
+     "Mahabubnagar"
+    ]
+   },
+   "consult_date": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 227,
+    "top_values": {
+     "2026-07-30": 43,
+     "2026-07-15": 43,
+     "2026-08-11": 41,
+     "2026-08-13": 39,
+     "2026-08-15": 39,
+     "2026-07-03": 37,
+     "2026-07-21": 37,
+     "2026-08-02": 37,
+     "2026-06-01": 36,
+     "2026-08-08": 36,
+     "2026-05-05": 36,
+     "2026-07-25": 36
+    },
+    "sample": [
+     "2026-05-19",
+     "2026-07-22",
+     "2026-08-11"
+    ]
+   },
+   "facility_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 27,
+    "top_values": {
+     "FAC023": 238,
+     "FAC024": 222,
+     "FAC009": 221,
+     "FAC022": 220,
+     "FAC006": 218,
+     "FAC007": 218,
+     "FAC012": 218,
+     "FAC021": 218,
+     "FAC016": 211,
+     "FAC008": 210,
+     "FAC011": 209,
+     "FAC017": 209
+    },
+    "sample": [
+     "FAC015",
+     "FAC006",
+     "FAC004"
+    ]
+   },
+   "chief_complaint": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 8,
+    "top_values": {
+     "Cough": 730,
+     "Fever": 715,
+     "Headache": 709,
+     "Abdominal discomfort": 694,
+     "Body pain": 688,
+     "Routine NCD review": 670,
+     "Skin complaint": 663,
+     "Dizziness": 647
+    },
+    "sample": [
+     "Routine NCD review",
+     "Skin complaint",
+     "Skin complaint"
+    ]
+   },
+   "diagnosis_group": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 9,
+    "top_values": {
+     "Hypertension": 990,
+     "Other": 812,
+     "Fever/Infection": 713,
+     "Diabetes": 712,
+     "Musculoskeletal": 566,
+     "Dermatology": 550,
+     "Respiratory": 421,
+     "Hypertension+Diabetes": 381,
+     "Gastrointestinal": 371
+    },
+    "sample": [
+     "Other",
+     "Other",
+     "Fever/Infection"
+    ]
+   },
+   "consult_mode": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Assisted video": 1873,
+     "Audio": 1823,
+     "Video": 1820
+    },
+    "sample": [
+     "Audio",
+     "Assisted video",
+     "Video"
+    ]
+   },
+   "duration_min": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 18,
+    "min": 7.0,
+    "max": 24.0,
+    "mean": 15.522117476432197,
+    "sample": [
+     "15",
+     "18",
+     "20"
+    ]
+   },
+   "medicine_advised": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "Yes": 4209,
+     "No": 1307
+    },
+    "sample": [
+     "Yes",
+     "No",
+     "No"
+    ]
+   },
+   "test_advised": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "No": 3511,
+     "Yes": 2005
+    },
+    "sample": [
+     "Yes",
+     "No",
+     "No"
+    ]
+   },
+   "review_advised": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "Yes": 3753,
+     "No": 1763
+    },
+    "sample": [
+     "No",
+     "Yes",
+     "Yes"
+    ]
+   },
+   "review_due_days": {
+    "dtype": "float64",
+    "n_missing": 1763,
+    "n_unique": 4,
+    "min": 7.0,
+    "max": 30.0,
+    "mean": 18.031707966959765,
+    "sample": [
+     "21.0",
+     "7.0",
+     "30.0"
+    ]
+   },
+   "distance_to_facility_km": {
+    "dtype": "float64",
+    "n_missing": 0,
+    "n_unique": 92,
+    "min": 1.4,
+    "max": 38.9,
+    "mean": 19.158502538071065,
+    "sample": [
+     "29.7",
+     "33.3",
+     "27.6"
+    ]
+   },
+   "preferred_language": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Telugu": 4755,
+     "Urdu": 514,
+     "English": 247
+    },
+    "sample": [
+     "Telugu",
+     "Telugu",
+     "Telugu"
+    ]
+   },
+   "connectivity_quality": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Fair": 1878,
+     "Good": 1861,
+     "Poor": 1777
+    },
+    "sample": [
+     "Poor",
+     "Fair",
+     "Good"
+    ]
+   },
+   "consult_status": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 1,
+    "top_values": {
+     "Completed": 5516
+    },
+    "sample": [
+     "Completed",
+     "Completed",
+     "Completed"
+    ]
+   }
+  }
+ },
+ "ncd_screening": {
+  "n_rows": 4748,
+  "n_cols": 18,
+  "columns": {
+   "ncd_record_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4748,
+    "top_values": {
+     "NCDR0000001": 1,
+     "NCDR0000002": 1,
+     "NCDR0000003": 1,
+     "NCDR0000004": 1,
+     "NCDR0000005": 1,
+     "NCDR0000006": 1,
+     "NCDR0000007": 1,
+     "NCDR0000008": 1,
+     "NCDR0000009": 1,
+     "NCDR0000010": 1,
+     "NCDR0000011": 1,
+     "NCDR0000012": 1
+    },
+    "sample": [
+     "NCDR0000001",
+     "NCDR0000002",
+     "NCDR0000003"
+    ]
+   },
+   "ncd_source_patient_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3589,
+    "top_values": {
+     "NCP0000007": 3,
+     "NCP0000022": 3,
+     "NCP0000082": 3,
+     "NCP0000088": 3,
+     "NCP0000094": 3,
+     "NCP0000155": 3,
+     "NCP0000165": 3,
+     "NCP0000176": 3,
+     "NCP0000192": 3,
+     "NCP0000216": 3,
+     "NCP0000225": 3,
+     "NCP0000232": 3
+    },
+    "sample": [
+     "NCP0000001",
+     "NCP0000002",
+     "NCP0000003"
+    ]
+   },
+   "patient_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 1243,
+    "top_values": {
+     "Renuka Devi": 17,
+     "Santosh Rao": 15,
+     "Vinod Narsimha": 14,
+     "Anitha Mallaiah": 13,
+     "Deepika Rao": 13,
+     "Mounika Yadav": 13,
+     "Vinod Begum": 13,
+     "Shobha Naik": 13,
+     "Srinivas Narsimha": 13,
+     "Jyothi Krishna": 13,
+     "Kiran Rao": 12,
+     "Raju Shekar": 12
+    },
+    "sample": [
+     "Mohan Mallaiah",
+     "Mohan Basha",
+     "Mohan Laxman"
+    ]
+   },
+   "gender": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "F": 2444,
+     "M": 2304
+    },
+    "sample": [
+     "M",
+     "M",
+     "M"
+    ]
+   },
+   "age": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 73,
+    "min": 18.0,
+    "max": 90.0,
+    "mean": 48.993260320134794,
+    "sample": [
+     "18",
+     "47",
+     "45"
+    ]
+   },
+   "mobile": {
+    "dtype": "str",
+    "n_missing": 400,
+    "n_unique": 3617,
+    "top_values": {
+     "9512351181": 3,
+     "9808768740": 3,
+     "9441390239": 3,
+     "9531635484": 3,
+     "9138023290": 3,
+     "9058492289": 3,
+     "9066229866": 3,
+     "9416153267": 3,
+     "9526867885": 3,
+     "9704788236": 3,
+     "9397491705": 3,
+     "9475751452": 3
+    },
+    "sample": [
+     "9856495988",
+     "9983609751",
+     "9136944279"
+    ]
+   },
+   "village": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 113,
+    "top_values": {
+     "Bodajanampet": 140,
+     "Kohir": 136,
+     "Jharasangam": 133,
+     "Velpula": 133,
+     "Midjil": 129,
+     "Vemula": 128,
+     "Indresham": 125,
+     "Devarakonda": 125,
+     "Kalher": 125,
+     "Polepally": 122,
+     "Kummarikunta": 121,
+     "Marrur": 120
+    },
+    "sample": [
+     "Indresham",
+     "Chandur",
+     "Bodajanampet"
+    ]
+   },
+   "block": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 9,
+    "top_values": {
+     "Midjil": 567,
+     "Zaheerabad": 561,
+     "Balanagar": 535,
+     "Nakrekal": 532,
+     "Devarakonda": 529,
+     "Patancheru": 514,
+     "Narayankhed": 511,
+     "Chandur": 503,
+     "Jadcherla": 496
+    },
+    "sample": [
+     "Patancheru",
+     "Chandur",
+     "Balanagar"
+    ]
+   },
+   "district": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Mahabubnagar": 1598,
+     "Sangareddy": 1586,
+     "Nalgonda": 1564
+    },
+    "sample": [
+     "Sangareddy",
+     "Nalgonda",
+     "Mahabubnagar"
+    ]
+   },
+   "screening_date": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 410,
+    "top_values": {
+     "2026-04-18": 25,
+     "2026-02-09": 23,
+     "2026-02-05": 23,
+     "2025-10-02": 22,
+     "2025-10-13": 22,
+     "2025-11-14": 22,
+     "2026-01-04": 22,
+     "2025-09-30": 22,
+     "2026-06-06": 22,
+     "2026-01-17": 21,
+     "2026-02-13": 21,
+     "2026-03-07": 21
+    },
+    "sample": [
+     "2026-01-02",
+     "2026-03-14",
+     "2026-04-08"
+    ]
+   },
+   "screening_type": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Community screening": 1608,
+     "Opportunistic screening": 1602,
+     "HWC screening": 1538
+    },
+    "sample": [
+     "HWC screening",
+     "Community screening",
+     "HWC screening"
+    ]
+   },
+   "systolic_bp": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 86,
+    "min": 105.0,
+    "max": 190.0,
+    "mean": 147.8803706823926,
+    "sample": [
+     "147",
+     "117",
+     "186"
+    ]
+   },
+   "diastolic_bp": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 49,
+    "min": 68.0,
+    "max": 116.0,
+    "mean": 91.98546756529065,
+    "sample": [
+     "106",
+     "93",
+     "87"
+    ]
+   },
+   "random_glucose_mg_dl": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 253,
+    "min": 78.0,
+    "max": 330.0,
+    "mean": 171.91975568660487,
+    "sample": [
+     "290",
+     "153",
+     "140"
+    ]
+   },
+   "bmi": {
+    "dtype": "float64",
+    "n_missing": 0,
+    "n_unique": 161,
+    "min": 18.5,
+    "max": 34.5,
+    "mean": 26.46145745577085,
+    "sample": [
+     "30.8",
+     "33.6",
+     "18.8"
+    ]
+   },
+   "ncd_status": {
+    "dtype": "str",
+    "n_missing": 970,
+    "n_unique": 3,
+    "top_values": {
+     "Hypertension": 1717,
+     "Diabetes": 1150,
+     "Hypertension+Diabetes": 911
+    },
+    "sample": [
+     "Hypertension+Diabetes",
+     "Hypertension",
+     "Hypertension"
+    ]
+   },
+   "control_status": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4,
+    "top_values": {
+     "Uncontrolled": 1274,
+     "Controlled": 1259,
+     "Borderline": 1245,
+     "Not diagnosed": 970
+    },
+    "sample": [
+     "Controlled",
+     "Not diagnosed",
+     "Controlled"
+    ]
+   },
+   "next_followup_due": {
+    "dtype": "str",
+    "n_missing": 970,
+    "n_unique": 455,
+    "top_values": {
+     "2026-07-16": 20,
+     "2026-04-23": 19,
+     "2026-06-17": 19,
+     "2026-01-25": 18,
+     "2026-07-14": 18,
+     "2026-03-30": 18,
+     "2026-02-15": 17,
+     "2026-05-06": 17,
+     "2026-05-26": 17,
+     "2025-12-18": 17,
+     "2026-07-01": 17,
+     "2026-07-06": 17
+    },
+    "sample": [
+     "2026-04-02",
+     "2026-05-08",
+     "2026-04-23"
+    ]
+   }
+  }
+ },
+ "prescriptions": {
+  "n_rows": 5151,
+  "n_cols": 14,
+  "columns": {
+   "prescription_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4209,
+    "top_values": {
+     "RX0000314": 3,
+     "RX0000427": 3,
+     "RX0000458": 3,
+     "RX0000476": 3,
+     "RX0000902": 3,
+     "RX0001071": 3,
+     "RX0001079": 3,
+     "RX0001296": 3,
+     "RX0001307": 3,
+     "RX0001317": 3,
+     "RX0001521": 3,
+     "RX0001668": 3
+    },
+    "sample": [
+     "RX0000001",
+     "RX0000002",
+     "RX0000003"
+    ]
+   },
+   "prescription_line_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 5151,
+    "top_values": {
+     "RX0000001-1": 1,
+     "RX0000002-1": 1,
+     "RX0000003-1": 1,
+     "RX0000004-1": 1,
+     "RX0000004-2": 1,
+     "RX0000006-1": 1,
+     "RX0000006-2": 1,
+     "RX0000008-1": 1,
+     "RX0000009-1": 1,
+     "RX0000010-1": 1,
+     "RX0000010-2": 1,
+     "RX0000012-1": 1
+    },
+    "sample": [
+     "RX0000001-1",
+     "RX0000002-1",
+     "RX0000003-1"
+    ]
+   },
+   "rx_source_patient_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3449,
+    "top_values": {
+     "RXP0000116": 6,
+     "RXP0001132": 6,
+     "RXP0000311": 5,
+     "RXP0000899": 5,
+     "RXP0001153": 5,
+     "RXP0001528": 5,
+     "RXP0001584": 5,
+     "RXP0001752": 5,
+     "RXP0001932": 5,
+     "RXP0002045": 5,
+     "RXP0002049": 5,
+     "RXP0002299": 5
+    },
+    "sample": [
+     "RXP0000001",
+     "RXP0000002",
+     "RXP0000003"
+    ]
+   },
+   "patient_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 1267,
+    "top_values": {
+     "Bhavani Das": 19,
+     "Jyothi Krishna": 19,
+     "Padma Shekar": 16,
+     "Rajesh Jangam": 15,
+     "Arun Begum": 15,
+     "Anitha Naik": 15,
+     "Bhavani Mudiraj": 14,
+     "Anil Reddy": 14,
+     "Shankar Yadav": 14,
+     "Vinod Narsimha": 14,
+     "Praveen Begum": 14,
+     "Jyothi Naik": 14
+    },
+    "sample": [
+     "Mohan Basha",
+     "Mohan Narsimha",
+     "Sai Krishna"
+    ]
+   },
+   "mobile": {
+    "dtype": "str",
+    "n_missing": 409,
+    "n_unique": 3666,
+    "top_values": {
+     "9835793200": 5,
+     "9133168513": 5,
+     "9035178578": 5,
+     "9890943448": 5,
+     "9805956460": 5,
+     "9341776266": 5,
+     "9474992238": 4,
+     "9442198767": 4,
+     "9962592192": 4,
+     "9656275094": 4,
+     "9034478864": 4,
+     "9359667147": 4
+    },
+    "sample": [
+     "9983609751",
+     "9484336710",
+     "9445488147"
+    ]
+   },
+   "village": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 113,
+    "top_values": {
+     "Jharasangam": 158,
+     "Kummarikunta": 158,
+     "Devarakonda": 145,
+     "Velpula": 142,
+     "Zaheerabad": 141,
+     "Kalher": 137,
+     "Mogudampally": 136,
+     "Kohir": 135,
+     "Nomula": 134,
+     "Ameenpur": 132,
+     "Gundlapally": 131,
+     "Bodajanampet": 131
+    },
+    "sample": [
+     "Chandur",
+     "Kondamallepally",
+     "Macharam"
+    ]
+   },
+   "prescription_date": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 227,
+    "top_values": {
+     "2026-07-15": 43,
+     "2026-08-13": 42,
+     "2026-07-03": 38,
+     "2026-08-11": 37,
+     "2026-07-16": 37,
+     "2026-08-15": 36,
+     "2026-07-25": 36,
+     "2026-07-30": 35,
+     "2026-05-07": 35,
+     "2026-06-01": 34,
+     "2026-07-21": 34,
+     "2026-07-08": 33
+    },
+    "sample": [
+     "2026-05-19",
+     "2026-06-02",
+     "2026-04-24"
+    ]
+   },
+   "teleconsult_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4209,
+    "top_values": {
+     "TC0000344": 3,
+     "TC0000468": 3,
+     "TC0000498": 3,
+     "TC0000515": 3,
+     "TC0000987": 3,
+     "TC0001189": 3,
+     "TC0001195": 3,
+     "TC0001439": 3,
+     "TC0001450": 3,
+     "TC0001456": 3,
+     "TC0001661": 3,
+     "TC0001817": 3
+    },
+    "sample": [
+     "TC0000001",
+     "TC0000004",
+     "TC0000005"
+    ]
+   },
+   "medicine_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 6,
+    "top_values": {
+     "Paracetamol": 1330,
+     "Amlodipine": 1026,
+     "Metformin": 812,
+     "Amoxicillin": 693,
+     "Pantoprazole": 656,
+     "Cetirizine": 634
+    },
+    "sample": [
+     "Cetirizine",
+     "Amlodipine",
+     "Amlodipine"
+    ]
+   },
+   "medicine_class": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 6,
+    "top_values": {
+     "Analgesic": 1330,
+     "Antihypertensive": 1026,
+     "Antidiabetic": 812,
+     "Antibiotic": 693,
+     "Antacid": 656,
+     "Antihistamine": 634
+    },
+    "sample": [
+     "Antihistamine",
+     "Antihypertensive",
+     "Antihypertensive"
+    ]
+   },
+   "frequency": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "TID": 1763,
+     "BD": 1736,
+     "OD": 1652
+    },
+    "sample": [
+     "BD",
+     "TID",
+     "BD"
+    ]
+   },
+   "days_prescribed": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 4,
+    "min": 3.0,
+    "max": 30.0,
+    "mean": 14.29877693651718,
+    "sample": [
+     "5",
+     "30",
+     "30"
+    ]
+   },
+   "route": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "Topical": 2602,
+     "Oral": 2549
+    },
+    "sample": [
+     "Oral",
+     "Oral",
+     "Oral"
+    ]
+   },
+   "facility_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 27,
+    "top_values": {
+     "FAC023": 227,
+     "FAC024": 213,
+     "FAC010": 211,
+     "FAC015": 207,
+     "FAC022": 207,
+     "FAC017": 206,
+     "FAC021": 202,
+     "FAC025": 198,
+     "FAC005": 198,
+     "FAC003": 196,
+     "FAC011": 195,
+     "FAC012": 195
+    },
+    "sample": [
+     "FAC015",
+     "FAC011",
+     "FAC001"
+    ]
+   }
+  }
+ },
+ "medicine_dispensing": {
+  "n_rows": 3756,
+  "n_cols": 14,
+  "columns": {
+   "dispense_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3756,
+    "top_values": {
+     "DSP0000001": 1,
+     "DSP0000002": 1,
+     "DSP0000003": 1,
+     "DSP0000004": 1,
+     "DSP0000005": 1,
+     "DSP0000006": 1,
+     "DSP0000007": 1,
+     "DSP0000008": 1,
+     "DSP0000009": 1,
+     "DSP0000010": 1,
+     "DSP0000011": 1,
+     "DSP0000012": 1
+    },
+    "sample": [
+     "DSP0000001",
+     "DSP0000002",
+     "DSP0000003"
+    ]
+   },
+   "pharm_source_patient_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2781,
+    "top_values": {
+     "PHP0000094": 6,
+     "PHP0000725": 5,
+     "PHP0001863": 5,
+     "PHP0000006": 4,
+     "PHP0000069": 4,
+     "PHP0000236": 4,
+     "PHP0000253": 4,
+     "PHP0000262": 4,
+     "PHP0000309": 4,
+     "PHP0000406": 4,
+     "PHP0000460": 4,
+     "PHP0000578": 4
+    },
+    "sample": [
+     "PHP0000001",
+     "PHP0000002",
+     "PHP0000003"
+    ]
+   },
+   "patient_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 1113,
+    "top_values": {
+     "Jyothi Krishna": 15,
+     "Bhavani Mudiraj": 14,
+     "Anitha Mallaiah": 14,
+     "Mohan Jangam": 13,
+     "Renuka Narsimha": 13,
+     "Arun Begum": 13,
+     "Ramesh Reddy": 12,
+     "Kiran Rao": 11,
+     "Rajesh Jangam": 11,
+     "Mounika Yadav": 11,
+     "Divya Jangam": 11,
+     "Swathi Devi": 11
+    },
+    "sample": [
+     "Mohan Basha",
+     "Mohan Narsimha",
+     "Anitha Narsimha"
+    ]
+   },
+   "mobile": {
+    "dtype": "str",
+    "n_missing": 301,
+    "n_unique": 2855,
+    "top_values": {
+     "9962592192": 6,
+     "9966229154": 5,
+     "9442198767": 4,
+     "9180846400": 4,
+     "9656275094": 4,
+     "9923204686": 4,
+     "9750516410": 4,
+     "9763556361": 4,
+     "9382368613": 4,
+     "9501440558": 4,
+     "9808431084": 4,
+     "9418181372": 4
+    },
+    "sample": [
+     "9983609751",
+     "9484336710",
+     "9474992238"
+    ]
+   },
+   "village": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 112,
+    "top_values": {
+     "Jharasangam": 122,
+     "Kummarikunta": 120,
+     "Velpula": 117,
+     "Kohir": 109,
+     "Rajapur": 105,
+     "Kondamallepally": 102,
+     "Kangti": 101,
+     "Mogudampally": 101,
+     "Peddadinne": 99,
+     "Midjil": 99,
+     "Devarakonda": 98,
+     "Macharam": 97
+    },
+    "sample": [
+     "Chandur",
+     "Kondamallepally",
+     "Devarakonda"
+    ]
+   },
+   "dispense_date": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 232,
+    "top_values": {
+     "2026-07-27": 34,
+     "2026-06-24": 32,
+     "2026-05-25": 30,
+     "2026-07-18": 30,
+     "2026-07-21": 28,
+     "2026-08-06": 26,
+     "2026-07-16": 26,
+     "2026-05-28": 26,
+     "2026-06-02": 25,
+     "2026-07-03": 25,
+     "2026-06-10": 25,
+     "2026-05-21": 25
+    },
+    "sample": [
+     "2026-05-19",
+     "2026-06-04",
+     "2026-02-26"
+    ]
+   },
+   "prescription_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3231,
+    "top_values": {
+     "RX0001071": 3,
+     "RX0001079": 3,
+     "RX0001307": 3,
+     "RX0001521": 3,
+     "RX0002134": 3,
+     "RX0002182": 3,
+     "RX0002329": 3,
+     "RX0002652": 3,
+     "RX0002813": 3,
+     "RX0003009": 3,
+     "RX0003062": 3,
+     "RX0003447": 3
+    },
+    "sample": [
+     "RX0000001",
+     "RX0000002",
+     "RX0000004"
+    ]
+   },
+   "medicine_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 6,
+    "top_values": {
+     "Paracetamol": 964,
+     "Amlodipine": 750,
+     "Metformin": 586,
+     "Amoxicillin": 496,
+     "Pantoprazole": 486,
+     "Cetirizine": 474
+    },
+    "sample": [
+     "Cetirizine",
+     "Amlodipine",
+     "Amlodipine"
+    ]
+   },
+   "prescribed_qty_proxy": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 4,
+    "min": 3.0,
+    "max": 30.0,
+    "mean": 14.28381256656017,
+    "sample": [
+     "5",
+     "30",
+     "30"
+    ]
+   },
+   "dispensed_qty": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 3,
+    "min": 0.0,
+    "max": 30.0,
+    "mean": 21.880990415335464,
+    "sample": [
+     "15",
+     "30",
+     "15"
+    ]
+   },
+   "partial_fill": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.1733226837060703,
+    "sample": [
+     "0",
+     "0",
+     "1"
+    ]
+   },
+   "stockout_flag": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.03807241746538871,
+    "sample": [
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   "facility_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 27,
+    "top_values": {
+     "FAC024": 169,
+     "FAC010": 162,
+     "FAC003": 159,
+     "FAC023": 159,
+     "FAC022": 157,
+     "FAC008": 154,
+     "FAC014": 149,
+     "FAC009": 147,
+     "FAC005": 147,
+     "FAC015": 145,
+     "FAC025": 145,
+     "FAC001": 142
+    },
+    "sample": [
+     "FAC015",
+     "FAC011",
+     "FAC011"
+    ]
+   },
+   "dispense_status": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Dispensed": 3007,
+     "Partially dispensed": 651,
+     "Not dispensed due to stock": 98
+    },
+    "sample": [
+     "Dispensed",
+     "Dispensed",
+     "Partially dispensed"
+    ]
+   }
+  }
+ },
+ "medicine_stock_status": {
+  "n_rows": 1296,
+  "n_cols": 11,
+  "columns": {
+   "stock_record_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 1296,
+    "top_values": {
+     "STK0000001": 1,
+     "STK0000002": 1,
+     "STK0000003": 1,
+     "STK0000004": 1,
+     "STK0000005": 1,
+     "STK0000006": 1,
+     "STK0000007": 1,
+     "STK0000008": 1,
+     "STK0000009": 1,
+     "STK0000010": 1,
+     "STK0000011": 1,
+     "STK0000012": 1
+    },
+    "sample": [
+     "STK0000001",
+     "STK0000002",
+     "STK0000003"
+    ]
+   },
+   "facility_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 27,
+    "top_values": {
+     "FAC001": 48,
+     "FAC002": 48,
+     "FAC003": 48,
+     "FAC004": 48,
+     "FAC005": 48,
+     "FAC006": 48,
+     "FAC007": 48,
+     "FAC008": 48,
+     "FAC009": 48,
+     "FAC010": 48,
+     "FAC011": 48,
+     "FAC012": 48
+    },
+    "sample": [
+     "FAC001",
+     "FAC001",
+     "FAC001"
+    ]
+   },
+   "snapshot_month": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 8,
+    "top_values": {
+     "2026-01-01": 162,
+     "2026-02-01": 162,
+     "2026-03-01": 162,
+     "2026-04-01": 162,
+     "2026-05-01": 162,
+     "2026-06-01": 162,
+     "2026-07-01": 162,
+     "2026-08-01": 162
+    },
+    "sample": [
+     "2026-01-01",
+     "2026-01-01",
+     "2026-01-01"
+    ]
+   },
+   "medicine_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 6,
+    "top_values": {
+     "Amlodipine": 216,
+     "Metformin": 216,
+     "Paracetamol": 216,
+     "Cetirizine": 216,
+     "Pantoprazole": 216,
+     "Amoxicillin": 216
+    },
+    "sample": [
+     "Amlodipine",
+     "Metformin",
+     "Paracetamol"
+    ]
+   },
+   "opening_stock": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 221,
+    "min": 80.0,
+    "max": 300.0,
+    "mean": 188.52083333333334,
+    "sample": [
+     "239",
+     "263",
+     "248"
+    ]
+   },
+   "received_qty": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 180,
+    "min": 40.0,
+    "max": 220.0,
+    "mean": 128.32175925925927,
+    "sample": [
+     "196",
+     "211",
+     "58"
+    ]
+   },
+   "dispensed_qty_month": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 373,
+    "min": 0.0,
+    "max": 476.0,
+    "mean": 198.51003086419752,
+    "sample": [
+     "294",
+     "435",
+     "130"
+    ]
+   },
+   "closing_stock": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 207,
+    "min": 0.0,
+    "max": 220.0,
+    "mean": 113.5979938271605,
+    "sample": [
+     "141",
+     "39",
+     "176"
+    ]
+   },
+   "stockout_flag_month": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.044753086419753084,
+    "sample": [
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   "stockout_days": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 11,
+    "min": 0.0,
+    "max": 12.0,
+    "mean": 0.3194444444444444,
+    "sample": [
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   "stock_status": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Adequate": 1148,
+     "Low stock": 90,
+     "Reorder raised": 58
+    },
+    "sample": [
+     "Adequate",
+     "Adequate",
+     "Adequate"
+    ]
+   }
+  }
+ },
+ "lab_tests": {
+  "n_rows": 2005,
+  "n_cols": 13,
+  "columns": {
+   "lab_record_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2005,
+    "top_values": {
+     "LAB0000001": 1,
+     "LAB0000002": 1,
+     "LAB0000003": 1,
+     "LAB0000004": 1,
+     "LAB0000005": 1,
+     "LAB0000006": 1,
+     "LAB0000007": 1,
+     "LAB0000008": 1,
+     "LAB0000009": 1,
+     "LAB0000010": 1,
+     "LAB0000011": 1,
+     "LAB0000012": 1
+    },
+    "sample": [
+     "LAB0000001",
+     "LAB0000002",
+     "LAB0000003"
+    ]
+   },
+   "lab_source_patient_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 1814,
+    "top_values": {
+     "LAP0000161": 3,
+     "LAP0000260": 3,
+     "LAP0000375": 3,
+     "LAP0000376": 3,
+     "LAP0000671": 3,
+     "LAP0000803": 3,
+     "LAP0000930": 3,
+     "LAP0000933": 3,
+     "LAP0001007": 3,
+     "LAP0001480": 3,
+     "LAP0001591": 3,
+     "LAP0000007": 2
+    },
+    "sample": [
+     "LAP0000001",
+     "LAP0000002",
+     "LAP0000003"
+    ]
+   },
+   "patient_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 914,
+    "top_values": {
+     "Anitha Naik": 9,
+     "Anil Reddy": 8,
+     "Divya Yadav": 8,
+     "Shobha Shekar": 7,
+     "Lakshmi Mallaiah": 7,
+     "Swathi Rao": 7,
+     "Praveen Laxman": 7,
+     "Harika Mudiraj": 7,
+     "Sai Reddy": 7,
+     "Jyothi Krishna": 7,
+     "Arun Mallaiah": 7,
+     "Bhavani Mudiraj": 6
+    },
+    "sample": [
+     "Mohan Basha",
+     "Mohan Narsimha",
+     "Sai Krishna"
+    ]
+   },
+   "mobile": {
+    "dtype": "str",
+    "n_missing": 148,
+    "n_unique": 1738,
+    "top_values": {
+     "9771818114": 3,
+     "9252033626": 3,
+     "9295746185": 3,
+     "9923204686": 3,
+     "9154814883": 3,
+     "9158829295": 3,
+     "9528864219": 3,
+     "9412818675": 2,
+     "9018785075": 2,
+     "9628924526": 2,
+     "9734917936": 2,
+     "9358032354": 2
+    },
+    "sample": [
+     "9983609751",
+     "9484336710",
+     "9445488947"
+    ]
+   },
+   "village": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 111,
+    "top_values": {
+     "Midjil": 71,
+     "Jharasangam": 63,
+     "Velpula": 60,
+     "Kohir": 59,
+     "Devarakonda": 58,
+     "Kondamallepally": 55,
+     "Bodajanampet": 54,
+     "Donur": 53,
+     "Chandur": 52,
+     "Gangapur": 52,
+     "Kummarikunta": 51,
+     "Balanagar": 51
+    },
+    "sample": [
+     "Chandur",
+     "Kondamallepally",
+     "Macharam"
+    ]
+   },
+   "order_date": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 227,
+    "top_values": {
+     "2026-07-15": 23,
+     "2026-08-15": 17,
+     "2026-05-23": 17,
+     "2026-08-10": 17,
+     "2026-05-19": 16,
+     "2026-08-13": 16,
+     "2026-06-14": 16,
+     "2026-07-30": 16,
+     "2026-07-16": 16,
+     "2026-05-31": 15,
+     "2026-08-08": 15,
+     "2026-07-29": 15
+    },
+    "sample": [
+     "2026-05-19",
+     "2026-06-02",
+     "2026-04-24"
+    ]
+   },
+   "test_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 9,
+    "top_values": {
+     "CBC": 243,
+     "Creatinine": 232,
+     "HbA1c": 226,
+     "ECG": 222,
+     "Lipid Profile": 217,
+     "Blood Glucose": 217,
+     "BP Recheck": 216,
+     "Urine Routine": 216,
+     "Chest X-ray": 216
+    },
+    "sample": [
+     "Lipid Profile",
+     "Blood Glucose",
+     "ECG"
+    ]
+   },
+   "sample_date": {
+    "dtype": "str",
+    "n_missing": 513,
+    "n_unique": 232,
+    "top_values": {
+     "2026-08-01": 15,
+     "2026-08-10": 14,
+     "2026-08-09": 13,
+     "2026-06-30": 13,
+     "2026-06-06": 12,
+     "2026-08-16": 12,
+     "2026-07-22": 12,
+     "2026-06-10": 12,
+     "2026-06-29": 12,
+     "2026-05-05": 12,
+     "2026-07-28": 11,
+     "2026-03-03": 11
+    },
+    "sample": [
+     "2026-05-22",
+     "2026-06-04",
+     "2026-03-20"
+    ]
+   },
+   "result_date": {
+    "dtype": "str",
+    "n_missing": 513,
+    "n_unique": 233,
+    "top_values": {
+     "2026-06-30": 16,
+     "2026-07-27": 15,
+     "2026-06-11": 14,
+     "2026-07-29": 14,
+     "2026-07-23": 13,
+     "2026-07-18": 13,
+     "2026-05-10": 13,
+     "2026-08-10": 13,
+     "2026-06-04": 13,
+     "2026-08-17": 12,
+     "2026-04-24": 12,
+     "2026-03-05": 11
+    },
+    "sample": [
+     "2026-05-23",
+     "2026-06-05",
+     "2026-03-22"
+    ]
+   },
+   "result_flag": {
+    "dtype": "str",
+    "n_missing": 513,
+    "n_unique": 3,
+    "top_values": {
+     "Normal": 1142,
+     "Abnormal": 181,
+     "Critical": 169
+    },
+    "sample": [
+     "Normal",
+     "Normal",
+     "Critical"
+    ]
+   },
+   "test_status": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "Available": 1492,
+     "Ordered-not-completed": 513
+    },
+    "sample": [
+     "Available",
+     "Available",
+     "Ordered-not-completed"
+    ]
+   },
+   "facility_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 27,
+    "top_values": {
+     "FAC023": 94,
+     "FAC007": 94,
+     "FAC012": 85,
+     "FAC025": 85,
+     "FAC009": 82,
+     "FAC003": 81,
+     "FAC015": 79,
+     "FAC005": 79,
+     "FAC022": 79,
+     "FAC024": 78,
+     "FAC014": 78,
+     "FAC006": 76
+    },
+    "sample": [
+     "FAC015",
+     "FAC011",
+     "FAC001"
+    ]
+   },
+   "lab_type": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "External lab": 686,
+     "Hub lab": 671,
+     "Facility lab": 648
+    },
+    "sample": [
+     "Facility lab",
+     "Hub lab",
+     "Facility lab"
+    ]
+   }
+  }
+ },
+ "followup_visits": {
+  "n_rows": 2575,
+  "n_cols": 11,
+  "columns": {
+   "visit_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2575,
+    "top_values": {
+     "VIS0000003": 1,
+     "VIS0000005": 1,
+     "VIS0000009": 1,
+     "VIS0000011": 1,
+     "VIS0000013": 1,
+     "VIS0000017": 1,
+     "VIS0000019": 1,
+     "VIS0000021": 1,
+     "VIS0000023": 1,
+     "VIS0000025": 1,
+     "VIS0000028": 1,
+     "VIS0000030": 1
+    },
+    "sample": [
+     "VIS0000003",
+     "VIS0000005",
+     "VIS0000009"
+    ]
+   },
+   "visit_source_patient_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2270,
+    "top_values": {
+     "VIP0000008": 3,
+     "VIP0000278": 3,
+     "VIP0000379": 3,
+     "VIP0001100": 3,
+     "VIP0001936": 3,
+     "VIP0002140": 3,
+     "VIP0002214": 3,
+     "VIP0002647": 3,
+     "VIP0002762": 3,
+     "VIP0002937": 3,
+     "VIP0003092": 3,
+     "VIP0003385": 3
+    },
+    "sample": [
+     "VIP0000002",
+     "VIP0000003",
+     "VIP0000005"
+    ]
+   },
+   "patient_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 981,
+    "top_values": {
+     "Harika Mudiraj": 10,
+     "Nirmala Khan": 9,
+     "Arun Khan": 9,
+     "Rani Reddy": 9,
+     "Lalitha Krishna": 9,
+     "Bhavani Mudiraj": 8,
+     "Sushma Begum": 8,
+     "Mohan Jangam": 8,
+     "Raju Mallaiah": 8,
+     "Srilatha Das": 8,
+     "Mounika Yadav": 8,
+     "Arun Begum": 8
+    },
+    "sample": [
+     "Mohan Laxman",
+     "Mohan Narsimha",
+     "Anitha Narsimha"
+    ]
+   },
+   "mobile": {
+    "dtype": "str",
+    "n_missing": 183,
+    "n_unique": 2208,
+    "top_values": {
+     "9923204686": 3,
+     "9494639191": 3,
+     "9750516410": 3,
+     "9761939946": 3,
+     "9106488043": 3,
+     "9308761512": 2,
+     "9412818675": 2,
+     "9930258785": 2,
+     "9515346534": 2,
+     "9748917883": 2,
+     "9018785075": 2,
+     "9442198767": 2
+    },
+    "sample": [
+     "9136944279",
+     "9484336710",
+     "9474992238"
+    ]
+   },
+   "village": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 110,
+    "top_values": {
+     "Midjil": 91,
+     "Kohir": 85,
+     "Jharasangam": 82,
+     "Balanagar": 78,
+     "Velpula": 75,
+     "Devarakonda": 72,
+     "Kummarikunta": 71,
+     "Bhanur": 71,
+     "Nomula": 69,
+     "Mogudampally": 68,
+     "Kangti": 67,
+     "Rajapur": 67
+    },
+    "sample": [
+     "Bodajanampet",
+     "Kondamallepally",
+     "Devarakonda"
+    ]
+   },
+   "visit_date": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 255,
+    "top_values": {
+     "2026-07-07": 23,
+     "2026-07-25": 21,
+     "2026-07-03": 21,
+     "2026-08-14": 21,
+     "2026-07-09": 20,
+     "2026-08-20": 19,
+     "2026-08-11": 19,
+     "2026-06-29": 19,
+     "2026-08-25": 19,
+     "2026-07-01": 19,
+     "2026-06-07": 18,
+     "2026-07-26": 18
+    },
+    "sample": [
+     "2026-08-20",
+     "2026-07-06",
+     "2026-04-15"
+    ]
+   },
+   "visit_type": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 1,
+    "top_values": {
+     "Follow-up review": 2575
+    },
+    "sample": [
+     "Follow-up review",
+     "Follow-up review",
+     "Follow-up review"
+    ]
+   },
+   "facility_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 27,
+    "top_values": {
+     "FAC007": 117,
+     "FAC025": 112,
+     "FAC022": 111,
+     "FAC008": 111,
+     "FAC024": 111,
+     "FAC006": 110,
+     "FAC009": 110,
+     "FAC003": 105,
+     "FAC012": 103,
+     "FAC023": 99,
+     "FAC021": 98,
+     "FAC026": 97
+    },
+    "sample": [
+     "FAC004",
+     "FAC011",
+     "FAC011"
+    ]
+   },
+   "episode_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2575,
+    "top_values": {
+     "E0000003": 1,
+     "E0000004": 1,
+     "E0000007": 1,
+     "E0000008": 1,
+     "E0000009": 1,
+     "E0000012": 1,
+     "E0000013": 1,
+     "E0000014": 1,
+     "E0000015": 1,
+     "E0000016": 1,
+     "E0000018": 1,
+     "E0000019": 1
+    },
+    "sample": [
+     "E0000003",
+     "E0000004",
+     "E0000007"
+    ]
+   },
+   "clinical_status": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Improved": 931,
+     "Needs escalation": 860,
+     "Stable": 784
+    },
+    "sample": [
+     "Needs escalation",
+     "Needs escalation",
+     "Stable"
+    ]
+   },
+   "referral_flag": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "No": 1707,
+     "Yes": 868
+    },
+    "sample": [
+     "No",
+     "No",
+     "Yes"
+    ]
+   }
+  }
+ },
+ "visit_history": {
+  "n_rows": 13061,
+  "n_cols": 11,
+  "columns": {
+   "visit_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 13061,
+    "top_values": {
+     "VIS0000001": 1,
+     "VIS0000002": 1,
+     "VIS0000003": 1,
+     "VIS0000004": 1,
+     "VIS0000005": 1,
+     "VIS0000006": 1,
+     "VIS0000007": 1,
+     "VIS0000008": 1,
+     "VIS0000009": 1,
+     "VIS0000010": 1,
+     "VIS0000011": 1,
+     "VIS0000012": 1
+    },
+    "sample": [
+     "VIS0000001",
+     "VIS0000002",
+     "VIS0000003"
+    ]
+   },
+   "visit_source_patient_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4747,
+    "top_values": {
+     "VIP0000379": 8,
+     "VIP0002214": 8,
+     "VIP0002647": 8,
+     "VIP0002762": 8,
+     "VIP0000142": 7,
+     "VIP0000168": 7,
+     "VIP0000339": 7,
+     "VIP0000377": 7,
+     "VIP0000893": 7,
+     "VIP0000949": 7,
+     "VIP0001041": 7,
+     "VIP0001051": 7
+    },
+    "sample": [
+     "VIP0000001",
+     "VIP0000002",
+     "VIP0000002"
+    ]
+   },
+   "patient_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 1730,
+    "top_values": {
+     "Praveen Laxman": 35,
+     "Harika Mudiraj": 35,
+     "Mounika Yadav": 34,
+     "Rani Reddy": 34,
+     "Kiran Rao": 33,
+     "Santosh Rao": 33,
+     "Raghav Basha": 33,
+     "Bhavani Das": 33,
+     "Vinod Narsimha": 33,
+     "Anitha Mallaiah": 32,
+     "Arun Begum": 32,
+     "Anitha Naik": 32
+    },
+    "sample": [
+     "Mohan Basha",
+     "Mohn Laxman",
+     "Mohan Laxman"
+    ]
+   },
+   "mobile": {
+    "dtype": "str",
+    "n_missing": 1068,
+    "n_unique": 6411,
+    "top_values": {
+     "9815927753": 7,
+     "9771818114": 7,
+     "9854579507": 7,
+     "9295746185": 7,
+     "9967548434": 7,
+     "9750516410": 7,
+     "9761939946": 7,
+     "9768879911": 7,
+     "9890943448": 7,
+     "9748917883": 6,
+     "9444621490": 6,
+     "9683995229": 6
+    },
+    "sample": [
+     "9983609751",
+     "9136944279",
+     "9136944279"
+    ]
+   },
+   "village": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 113,
+    "top_values": {
+     "Midjil": 379,
+     "Nomula": 368,
+     "Kohir": 364,
+     "Jharasangam": 363,
+     "Kummarikunta": 360,
+     "Kangti": 350,
+     "Velpula": 350,
+     "Devarakonda": 347,
+     "Bodajanampet": 345,
+     "Mogudampally": 336,
+     "Manoor": 328,
+     "Donur": 325
+    },
+    "sample": [
+     "Chandur",
+     "Bodajanampet",
+     "Bodajanampet"
+    ]
+   },
+   "visit_date": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 448,
+    "top_values": {
+     "2026-04-17": 67,
+     "2026-06-10": 67,
+     "2026-06-01": 66,
+     "2026-06-15": 65,
+     "2026-05-30": 64,
+     "2026-06-29": 64,
+     "2026-04-19": 62,
+     "2026-05-19": 61,
+     "2026-06-14": 61,
+     "2026-08-11": 60,
+     "2026-04-20": 60,
+     "2026-03-16": 60
+    },
+    "sample": [
+     "2026-05-19",
+     "2026-07-22",
+     "2026-08-20"
+    ]
+   },
+   "visit_type": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 5,
+    "top_values": {
+     "Teleconsultation": 5516,
+     "Follow-up review": 2575,
+     "NCD follow-up": 1699,
+     "Screening visit": 1639,
+     "OPD visit": 1632
+    },
+    "sample": [
+     "Teleconsultation",
+     "Teleconsultation",
+     "Follow-up review"
+    ]
+   },
+   "facility_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 27,
+    "top_values": {
+     "FAC022": 534,
+     "FAC023": 528,
+     "FAC024": 528,
+     "FAC007": 527,
+     "FAC021": 518,
+     "FAC008": 517,
+     "FAC009": 514,
+     "FAC025": 502,
+     "FAC012": 499,
+     "FAC006": 496,
+     "FAC011": 495,
+     "FAC016": 495
+    },
+    "sample": [
+     "FAC015",
+     "FAC006",
+     "FAC004"
+    ]
+   },
+   "episode_id": {
+    "dtype": "str",
+    "n_missing": 4970,
+    "n_unique": 5516,
+    "top_values": {
+     "E0000003": 2,
+     "E0000004": 2,
+     "E0000007": 2,
+     "E0000008": 2,
+     "E0000009": 2,
+     "E0000012": 2,
+     "E0000013": 2,
+     "E0000014": 2,
+     "E0000015": 2,
+     "E0000016": 2,
+     "E0000018": 2,
+     "E0000019": 2
+    },
+    "sample": [
+     "E0000001",
+     "E0000002",
+     "E0000003"
+    ]
+   },
+   "clinical_status": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 5,
+    "top_values": {
+     "Consult completed": 5516,
+     "Improved": 2522,
+     "Stable": 2451,
+     "New complaint": 1712,
+     "Needs escalation": 860
+    },
+    "sample": [
+     "Consult completed",
+     "Consult completed",
+     "Needs escalation"
+    ]
+   },
+   "referral_flag": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "No": 12193,
+     "Yes": 868
+    },
+    "sample": [
+     "No",
+     "No",
+     "No"
+    ]
+   }
+  }
+ },
+ "outreach_actions": {
+  "n_rows": 6088,
+  "n_cols": 12,
+  "columns": {
+   "outreach_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 6088,
+    "top_values": {
+     "OUT0000001": 1,
+     "OUT0000002": 1,
+     "OUT0000003": 1,
+     "OUT0000004": 1,
+     "OUT0000005": 1,
+     "OUT0000006": 1,
+     "OUT0000007": 1,
+     "OUT0000008": 1,
+     "OUT0000009": 1,
+     "OUT0000010": 1,
+     "OUT0000011": 1,
+     "OUT0000012": 1
+    },
+    "sample": [
+     "OUT0000001",
+     "OUT0000002",
+     "OUT0000003"
+    ]
+   },
+   "outreach_source_patient_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2705,
+    "top_values": {
+     "OUP0001538": 9,
+     "OUP0000770": 8,
+     "OUP0002216": 8,
+     "OUP0000156": 7,
+     "OUP0000225": 7,
+     "OUP0000885": 7,
+     "OUP0001137": 7,
+     "OUP0002002": 7,
+     "OUP0002397": 7,
+     "OUP0002646": 7,
+     "OUP0000038": 6,
+     "OUP0000076": 6
+    },
+    "sample": [
+     "OUP0000001",
+     "OUP0000002",
+     "OUP0000003"
+    ]
+   },
+   "patient_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 1324,
+    "top_values": {
+     "Shobha Shekar": 25,
+     "Raghav Basha": 24,
+     "Bhavani Das": 23,
+     "Praveen Laxman": 21,
+     "Arun Begum": 21,
+     "Rani Reddy": 19,
+     "Naveen Khan": 19,
+     "Deepika Mudiraj": 19,
+     "Raghav Reddy": 18,
+     "Divya Laxman": 18,
+     "Saritha Patel": 18,
+     "Anil Reddy": 17
+    },
+    "sample": [
+     "Mohan Basha",
+     "Mohan Laxman",
+     "Mohn Narsimha"
+    ]
+   },
+   "mobile": {
+    "dtype": "str",
+    "n_missing": 470,
+    "n_unique": 3358,
+    "top_values": {
+     "9158829295": 8,
+     "9839160591": 7,
+     "9684831035": 6,
+     "9815927753": 6,
+     "9501336585": 6,
+     "9369879329": 6,
+     "9207604901": 6,
+     "9724684314": 6,
+     "9574070981": 6,
+     "9874495138": 6,
+     "9728275128": 6,
+     "9035178578": 6
+    },
+    "sample": [
+     "9983609751",
+     "9136944879",
+     "9484336710"
+    ]
+   },
+   "village": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 113,
+    "top_values": {
+     "Zaheerabad": 200,
+     "Bodajanampet": 194,
+     "Kalher": 190,
+     "Nakrekal": 186,
+     "Jharasangam": 179,
+     "Kummarikunta": 178,
+     "Devarakonda": 176,
+     "Gundlapally": 170,
+     "Midjil": 169,
+     "Mogudampally": 168,
+     "Chandur": 154,
+     "Bhanur": 153
+    },
+    "sample": [
+     "Chandur",
+     "Bodajanampet",
+     "Kondamallepalli"
+    ]
+   },
+   "action_date": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 250,
+    "top_values": {
+     "2026-08-21": 44,
+     "2026-08-04": 44,
+     "2026-06-29": 42,
+     "2026-07-23": 41,
+     "2026-07-28": 41,
+     "2026-08-22": 41,
+     "2026-06-25": 39,
+     "2026-07-07": 39,
+     "2026-08-06": 39,
+     "2026-02-25": 38,
+     "2026-08-11": 38,
+     "2026-08-19": 37
+    },
+    "sample": [
+     "2026-05-29",
+     "2026-08-12",
+     "2026-06-09"
+    ]
+   },
+   "action_method": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4,
+    "top_values": {
+     "Phone call": 2639,
+     "Home visit": 1821,
+     "Village health day reminder": 869,
+     "WhatsApp/SMS": 759
+    },
+    "sample": [
+     "Village health day reminder",
+     "Phone call",
+     "WhatsApp/SMS"
+    ]
+   },
+   "contact_outcome": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 7,
+    "top_values": {
+     "Reached; promised follow-up": 1395,
+     "Reached; counselled": 1348,
+     "Family member reached": 1262,
+     "Phone switched off": 541,
+     "Patient unavailable": 538,
+     "Wrong number": 521,
+     "No answer": 483
+    },
+    "sample": [
+     "Patient unavailable",
+     "Reached; counselled",
+     "Wrong number"
+    ]
+   },
+   "cadre": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "CHO": 3059,
+     "ASHA": 3029
+    },
+    "sample": [
+     "ASHA",
+     "ASHA",
+     "ASHA"
+    ]
+   },
+   "facility_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 27,
+    "top_values": {
+     "FAC023": 286,
+     "FAC017": 265,
+     "FAC015": 255,
+     "FAC022": 255,
+     "FAC016": 254,
+     "FAC025": 251,
+     "FAC011": 241,
+     "FAC012": 241,
+     "FAC021": 239,
+     "FAC024": 236,
+     "FAC008": 232,
+     "FAC010": 226
+    },
+    "sample": [
+     "FAC015",
+     "FAC006",
+     "FAC011"
+    ]
+   },
+   "episode_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3152,
+    "top_values": {
+     "E0000007": 3,
+     "E0000010": 3,
+     "E0000031": 3,
+     "E0000043": 3,
+     "E0000068": 3,
+     "E0000070": 3,
+     "E0000079": 3,
+     "E0000080": 3,
+     "E0000081": 3,
+     "E0000084": 3,
+     "E0000088": 3,
+     "E0000093": 3
+    },
+    "sample": [
+     "E0000001",
+     "E0000002",
+     "E0000004"
+    ]
+   },
+   "followup_reason": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4,
+    "top_values": {
+     "Medicine pickup": 1604,
+     "Review visit": 1558,
+     "General adherence": 1488,
+     "Test completion": 1438
+    },
+    "sample": [
+     "Medicine pickup",
+     "Review visit",
+     "Review visit"
+    ]
+   }
+  }
+ },
+ "facility_reference": {
+  "n_rows": 27,
+  "n_cols": 10,
+  "columns": {
+   "facility_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 27,
+    "top_values": {
+     "FAC001": 1,
+     "FAC002": 1,
+     "FAC003": 1,
+     "FAC004": 1,
+     "FAC005": 1,
+     "FAC006": 1,
+     "FAC007": 1,
+     "FAC008": 1,
+     "FAC009": 1,
+     "FAC010": 1,
+     "FAC011": 1,
+     "FAC012": 1
+    },
+    "sample": [
+     "FAC001",
+     "FAC002",
+     "FAC003"
+    ]
+   },
+   "facility_name": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 27,
+    "top_values": {
+     "Jadcherla PHC-1": 1,
+     "Jadcherla HWC-1": 1,
+     "Jadcherla HWC-2": 1,
+     "Balanagar PHC-1": 1,
+     "Balanagar HWC-1": 1,
+     "Balanagar HWC-2": 1,
+     "Midjil PHC-1": 1,
+     "Midjil HWC-1": 1,
+     "Midjil HWC-2": 1,
+     "Devarakonda PHC-1": 1,
+     "Devarakonda HWC-1": 1,
+     "Devarakonda HWC-2": 1
+    },
+    "sample": [
+     "Jadcherla PHC-1",
+     "Jadcherla HWC-1",
+     "Jadcherla HWC-2"
+    ]
+   },
+   "facility_type": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "HWC": 18,
+     "PHC": 9
+    },
+    "sample": [
+     "PHC",
+     "HWC",
+     "HWC"
+    ]
+   },
+   "district": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Mahabubnagar": 9,
+     "Nalgonda": 9,
+     "Sangareddy": 9
+    },
+    "sample": [
+     "Mahabubnagar",
+     "Mahabubnagar",
+     "Mahabubnagar"
+    ]
+   },
+   "block": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 9,
+    "top_values": {
+     "Jadcherla": 3,
+     "Balanagar": 3,
+     "Midjil": 3,
+     "Devarakonda": 3,
+     "Chandur": 3,
+     "Nakrekal": 3,
+     "Narayankhed": 3,
+     "Zaheerabad": 3,
+     "Patancheru": 3
+    },
+    "sample": [
+     "Jadcherla",
+     "Jadcherla",
+     "Jadcherla"
+    ]
+   },
+   "latitude": {
+    "dtype": "float64",
+    "n_missing": 0,
+    "n_unique": 27,
+    "min": 16.625165,
+    "max": 17.626852,
+    "mean": 17.130689703703702,
+    "sample": [
+     "16.777331",
+     "16.757882",
+     "16.822409"
+    ]
+   },
+   "longitude": {
+    "dtype": "float64",
+    "n_missing": 0,
+    "n_unique": 27,
+    "min": 77.831472,
+    "max": 79.370978,
+    "mean": 78.40895985185186,
+    "sample": [
+     "78.039561",
+     "77.831472",
+     "78.00411"
+    ]
+   },
+   "network_context": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4,
+    "top_values": {
+     "4G reliable": 10,
+     "4G intermittent": 8,
+     "2G/3G": 6,
+     "Offline-prone": 3
+    },
+    "sample": [
+     "Offline-prone",
+     "2G/3G",
+     "4G intermittent"
+    ]
+   },
+   "cho_count": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 3,
+    "min": 1.0,
+    "max": 3.0,
+    "mean": 2.111111111111111,
+    "sample": [
+     "2",
+     "3",
+     "3"
+    ]
+   },
+   "asha_linked_count": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 5,
+    "min": 2.0,
+    "max": 6.0,
+    "mean": 3.259259259259259,
+    "sample": [
+     "4",
+     "4",
+     "3"
+    ]
+   }
+  }
+ },
+ "geography_reference": {
+  "n_rows": 36,
+  "n_cols": 9,
+  "columns": {
+   "village_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 36,
+    "top_values": {
+     "VIL0001": 1,
+     "VIL0002": 1,
+     "VIL0003": 1,
+     "VIL0004": 1,
+     "VIL0005": 1,
+     "VIL0006": 1,
+     "VIL0007": 1,
+     "VIL0008": 1,
+     "VIL0009": 1,
+     "VIL0010": 1,
+     "VIL0011": 1,
+     "VIL0012": 1
+    },
+    "sample": [
+     "VIL0001",
+     "VIL0002",
+     "VIL0003"
+    ]
+   },
+   "village": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 36,
+    "top_values": {
+     "Badepally": 1,
+     "Polepally": 1,
+     "Gangapur": 1,
+     "Macharam": 1,
+     "Balanagar": 1,
+     "Rajapur": 1,
+     "Kallepally": 1,
+     "Bodajanampet": 1,
+     "Midjil": 1,
+     "Donur": 1,
+     "Velpula": 1,
+     "Vemula": 1
+    },
+    "sample": [
+     "Badepally",
+     "Polepally",
+     "Gangapur"
+    ]
+   },
+   "district": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 3,
+    "top_values": {
+     "Mahabubnagar": 12,
+     "Nalgonda": 12,
+     "Sangareddy": 12
+    },
+    "sample": [
+     "Mahabubnagar",
+     "Mahabubnagar",
+     "Mahabubnagar"
+    ]
+   },
+   "block": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 9,
+    "top_values": {
+     "Jadcherla": 4,
+     "Balanagar": 4,
+     "Midjil": 4,
+     "Devarakonda": 4,
+     "Chandur": 4,
+     "Nakrekal": 4,
+     "Narayankhed": 4,
+     "Zaheerabad": 4,
+     "Patancheru": 4
+    },
+    "sample": [
+     "Jadcherla",
+     "Jadcherla",
+     "Jadcherla"
+    ]
+   },
+   "latitude": {
+    "dtype": "float64",
+    "n_missing": 0,
+    "n_unique": 36,
+    "min": 16.562478,
+    "max": 17.781559,
+    "mean": 17.14707330555556,
+    "sample": [
+     "16.863881",
+     "16.82928",
+     "16.65645"
+    ]
+   },
+   "longitude": {
+    "dtype": "float64",
+    "n_missing": 0,
+    "n_unique": 36,
+    "min": 77.801044,
+    "max": 79.467203,
+    "mean": 78.41742502777778,
+    "sample": [
+     "77.982442",
+     "77.80676",
+     "78.181741"
+    ]
+   },
+   "population": {
+    "dtype": "int64",
+    "n_missing": 0,
+    "n_unique": 36,
+    "min": 1195.0,
+    "max": 6274.0,
+    "mean": 3860.1944444444443,
+    "sample": [
+     "3961",
+     "1910",
+     "4949"
+    ]
+   },
+   "road_access": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4,
+    "top_values": {
+     "Paved": 14,
+     "Mixed": 12,
+     "Mostly paved": 9,
+     "Poor": 1
+    },
+    "sample": [
+     "Mostly paved",
+     "Mixed",
+     "Paved"
+    ]
+   },
+   "mobile_connectivity": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 4,
+    "top_values": {
+     "Moderate": 19,
+     "Weak": 7,
+     "Good": 7,
+     "Very weak": 3
+    },
+    "sample": [
+     "Moderate",
+     "Weak",
+     "Moderate"
+    ]
+   }
+  }
+ },
+ "episode_outcomes": {
+  "n_rows": 5516,
+  "n_cols": 6,
+  "columns": {
+   "episode_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 5516,
+    "top_values": {
+     "E0000001": 1,
+     "E0000002": 1,
+     "E0000003": 1,
+     "E0000004": 1,
+     "E0000005": 1,
+     "E0000006": 1,
+     "E0000007": 1,
+     "E0000008": 1,
+     "E0000009": 1,
+     "E0000010": 1,
+     "E0000011": 1,
+     "E0000012": 1
+    },
+    "sample": [
+     "E0000001",
+     "E0000002",
+     "E0000003"
+    ]
+   },
+   "teleconsult_id": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 5516,
+    "top_values": {
+     "TC0000001": 1,
+     "TC0000002": 1,
+     "TC0000003": 1,
+     "TC0000004": 1,
+     "TC0000005": 1,
+     "TC0000006": 1,
+     "TC0000007": 1,
+     "TC0000008": 1,
+     "TC0000009": 1,
+     "TC0000010": 1,
+     "TC0000011": 1,
+     "TC0000012": 1
+    },
+    "sample": [
+     "TC0000001",
+     "TC0000002",
+     "TC0000003"
+    ]
+   },
+   "consult_date": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 227,
+    "top_values": {
+     "2026-07-30": 43,
+     "2026-07-15": 43,
+     "2026-08-11": 41,
+     "2026-08-13": 39,
+     "2026-08-15": 39,
+     "2026-07-03": 37,
+     "2026-07-21": 37,
+     "2026-08-02": 37,
+     "2026-06-01": 36,
+     "2026-08-08": 36,
+     "2026-05-05": 36,
+     "2026-07-25": 36
+    },
+    "sample": [
+     "2026-05-19",
+     "2026-07-22",
+     "2026-08-11"
+    ]
+   },
+   "cohort": {
+    "dtype": "str",
+    "n_missing": 0,
+    "n_unique": 2,
+    "top_values": {
+     "DEVELOPMENT": 4132,
+     "EVALUATION": 1384
+    },
+    "sample": [
+     "DEVELOPMENT",
+     "EVALUATION",
+     "EVALUATION"
+    ]
+   },
+   "lost_to_followup_label": {
+    "dtype": "float64",
+    "n_missing": 1384,
+    "n_unique": 2,
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.48112294288480156,
+    "sample": [
+     "0.0",
+     "0.0",
+     "1.0"
+    ]
+   },
+   "dropout_stage_label": {
+    "dtype": "str",
+    "n_missing": 1384,
+    "n_unique": 4,
+    "top_values": {
+     "Completed care journey": 2144,
+     "Medicine not collected": 1170,
+     "Review not attended": 543,
+     "Test not completed": 275
+    },
+    "sample": [
+     "Completed care journey",
+     "Completed care journey",
+     "Medicine not collected"
+    ]
+   }
+  }
+ },
+ "submission_template_linkage": {
+  "n_rows": 0,
+  "n_cols": 4,
+  "columns": {
+   "source_system": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "source_patient_id": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "predicted_patient_id": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "confidence": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   }
+  }
+ },
+ "submission_template_episode_predictions": {
+  "n_rows": 0,
+  "n_cols": 5,
+  "columns": {
+   "episode_id": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "risk_probability": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "predicted_lost_to_followup": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "predicted_dropout_stage": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "priority_tier": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   }
+  }
+ },
+ "submission_template_action_queue": {
+  "n_rows": 0,
+  "n_cols": 6,
+  "columns": {
+   "episode_id": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "predicted_patient_id": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "priority": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "reason": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "recommended_action": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   },
+   "assigned_cadre": {
+    "dtype": "object",
+    "n_missing": 0,
+    "n_unique": 0,
+    "sample": []
+   }
+  }
+ }
+}

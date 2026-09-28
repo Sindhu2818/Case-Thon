@@ -1,0 +1,18 @@
+group_col,group,n,prevalence,precision,recall,fnr
+gender,F,811,0.473,0.622,0.664,0.336
+gender,M,747,0.474,0.655,0.621,0.379
+gender,__missing__,59,0.458,0.6,0.333,0.667
+vulnerability_group,Elderly living alone,102,0.431,0.547,0.659,0.341
+vulnerability_group,General,1126,0.48,0.635,0.628,0.372
+vulnerability_group,Low digital access,173,0.439,0.671,0.697,0.303
+vulnerability_group,Mobility limitation,82,0.524,0.659,0.674,0.326
+vulnerability_group,Seasonal migrant,75,0.467,0.694,0.714,0.286
+vulnerability_group,__missing__,59,0.458,0.6,0.333,0.667
+age_band,<=30,193,0.497,0.596,0.615,0.385
+age_band,31-45,465,0.514,0.689,0.603,0.397
+age_band,46-60,511,0.438,0.618,0.643,0.357
+age_band,60+,389,0.46,0.624,0.715,0.285
+district,Mahabubnagar,538,0.498,0.646,0.653,0.347
+district,Nalgonda,509,0.47,0.657,0.64,0.36
+district,Sangareddy,511,0.452,0.607,0.636,0.364
+district,__missing__,59,0.458,0.6,0.333,0.667

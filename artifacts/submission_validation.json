@@ -1,0 +1,25 @@
+{
+ "episode_rows": 1384,
+ "episode_ids_unique": true,
+ "risk_in_0_1": true,
+ "stages_valid": true,
+ "tiers_valid": true,
+ "action_rows": 695,
+ "action_episode_ids_unique": true,
+ "action_all_valid_patients": true,
+ "linkage_rows": 23998,
+ "linkage_unique_source_ids": 23998,
+ "linkage_conf_valid": true,
+ "tier_shares": {
+  "P4": 0.498,
+  "P3": 0.208,
+  "P1": 0.162,
+  "P2": 0.132
+ },
+ "stage_shares": {
+  "Completed care journey": 0.498,
+  "Medicine not collected": 0.358,
+  "Review not attended": 0.086,
+  "Test not completed": 0.058
+ }
+}

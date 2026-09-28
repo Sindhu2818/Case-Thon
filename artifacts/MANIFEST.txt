@@ -1,0 +1,29 @@
+Care-Journey Assurance — INFINUM 2026 submission manifest
+=========================================================
+
+SUBMISSION FILES (the three required CSVs):
+  submission/submission_linkage.csv            (23,998 linkage mappings)
+  submission/submission_episode_predictions.csv (1,384 evaluation episodes)
+  submission/submission_action_queue.csv        (695 outreach actions)
+
+READ FIRST:
+  README.md                                    overview + how to run
+  docs/RESULTS_REPORT.md                       methodology + all validated numbers
+  docs/PRESENTATION.md                         12-slide narrative
+
+SUPPORTING:
+  docs/data_dictionary.md                      166 columns with leakage verdicts
+  docs/example_explanations.md                 per-patient SHAP explanation cards
+  artifacts/model_comparison.csv               5 models + baseline
+  artifacts/ablation.csv                       A/B/C/D feature ablations
+  artifacts/stage_comparison.csv               hierarchical vs direct stage model
+  artifacts/stage_confusion_matrix.csv
+  artifacts/fairness.csv                       subgroup checks
+  artifacts/shap_top_features.csv
+  artifacts/permutation_importance.csv
+  artifacts/linkage_metrics.json  linkage_audit.csv
+  artifacts/submission_validation.json         structural checks on the 3 CSVs
+  artifacts/figures/*.png                      EDA, linkage, calibration/ROC/PR, SHAP
+  scripts/ + run_pipeline.py                   full reproducible code
+
+Reproduce with:  .venv/Scripts/python run_pipeline.py  (identical numbers guaranteed)
