@@ -12,12 +12,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PY = sys.executable
 
 STEPS = [
-    ("linkage", "scripts/linkage.py"),
-    ("features (temporal, leakage-checked)", "scripts/features.py"),
+    # ("linkage", "scripts/linkage.py"), # Requires raw data
+    # ("features (temporal, leakage-checked)", "scripts/features.py"), # Requires raw data
     ("training + comparison + ablations + SHAP", "scripts/train.py"),
     ("priority engine + submissions", "scripts/action_queue.py"),
     ("EDA report + figures", "scripts/figures.py"),
-    ("data dictionary", "scripts/make_data_dictionary.py"),
+    # ("data dictionary", "scripts/make_data_dictionary.py"), # Requires raw data
     ("example explanations", "scripts/explain_examples.py"),
 ]
 
