@@ -6,10 +6,7 @@
  "tiers_valid": true,
  "action_rows": 695,
  "action_episode_ids_unique": true,
- "action_all_valid_patients": true,
- "linkage_rows": 23998,
- "linkage_unique_source_ids": 23998,
- "linkage_conf_valid": true,
+ "action_all_valid_patients": false,
  "tier_shares": {
   "P4": 0.498,
   "P3": 0.208,
